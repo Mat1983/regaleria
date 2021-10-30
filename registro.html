@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/22e786acbc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>Registro</title>
+</head>
+<body>
+    <div class="padre">
+		<header class="header"><h1>
+            Regalería Las Petunias
+        </h1>
+        <br>
+        <nav>
+            <a class="nav" href="index.html">Inicio</a>
+            <a class="nav" href="sucursales.html">Sucursales</a>
+            <a class="nav" href="registro.html">Registro</a>
+        </nav>
+    </header>
+    <div class="articulo">
+    <form action="show_data.html" target="_blank">
+        <h2>Formulario de registro</h2>
+        <label for="firstname">Nombre: </label><input size="30" type="text" name="firstname"
+            placeholder="Ingrese su nombre aqui..."> <br><br>
+        <label for="lastname">Apellido:</label><input size="30" type="text" name="lastname"
+            placeholder="Ingrese su apellido aqui..."> <br><br>
+        <label for="street">Direccion:</label><input type="text" name="address"
+            placeholder="Ingrese su dirección aqui..."> <br><br>
+        <label for="number">Numero:</label><input type="number" name="number" placeholder="Ingrese el numero..">
+        <br><br>
+        <label for="city">Ciudad: </label><input type="text" name="city" value="C.A.B.A."> <br><br>
+        <label for="zipcode">Código Postal:</label><input type="text" name="zipcode"
+            placeholder="Ingrese su codigo postal aqui..."> <br> <br>
+        <label for="telefono">Telefono: </label><input type="tel" name="telefono"
+            placeholder="ingrese su telefono aqui ...."> <br><br>
+        <label for="BirthDate">Fecha Nac.(mm/dd/yyyy): </label> <input type="date" name="birthdate"> <br><br>
+        <label for="clave">Clave: </label><input type="password" name="clave"> <br><br>
+        <label for="mail">Mail: </label><input type="email" name="mail"> <br><br>
+        
+        <p>Género
+            <input type="radio" name="gender" value="hombre" checked>Hombre
+            <input type="radio" name="gender" value="Mujer">Mujer
+            <input type="radio" name="gender" value="Otro"> Otro
+        </p>
+        <p> Estoy interesado en los siguientes productos:
+            <input type="checkbox" name="producto" value="Calabaza"> Cabeza de Calabaza
+            <input type="checkbox" name="producto" value="mascara"> Máscara - Varios modelos
+            <input type="checkbox" name="producto" value="teleranea"> Telaraña
+            <input type="checkbox" name="producto" value="globos"> Globos estampados
+            <input type="checkbox" name="producto" value="esqueleto"> Esqueleto Plástico
+        </p>
+        <label for="comentarios">Comentarios:</label> <textarea name="comentarios" width="40%" height="50%"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+        <button type="reset">Reset</button>
+    </form>
+    </div>
+</body>
+<footer class="footer">
+    <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
+    <p>Derechos reservados @2021</p>
+</footer>
+</html>
